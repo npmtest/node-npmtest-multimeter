@@ -1,6 +1,6 @@
 # npmtest-multimeter
 
-#### test coverage for  [multimeter (v0.1.1)](https://github.com/substack/node-multimeter#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-multimeter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-multimeter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-multimeter.svg)](https://travis-ci.org/npmtest/node-npmtest-multimeter)
+#### basic test coverage for  [multimeter (v0.1.1)](https://github.com/substack/node-multimeter#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-multimeter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-multimeter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-multimeter.svg)](https://travis-ci.org/npmtest/node-npmtest-multimeter)
 
 #### render multiple progress bars at once on the terminal
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-multimeter/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-multimeter/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-multimeter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-multimeter/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-multimeter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-multimeter/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-multimeter/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-multimeter/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-multimeter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-multimeter/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-multimeter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-multimeter/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "type": "git",
         "url": "git+ssh://git@github.com/substack/node-multimeter.git"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
